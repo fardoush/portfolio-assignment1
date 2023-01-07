@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+font-style: normal;
+    /* overflow: hidden; */
+
+}
+a{
+    text-decoration: none;
+}
+.section-padding-top{
+    padding-top: 130px;
+}
+.section-padding{
+    padding: 130px 0;
+}
+
+/* banner  */
+
+.header{
+    width: 100%;
+    background: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 82vh;
+    padding: 100px 0;
+    /* overflow-x: hidden; */
+}
+
+/* .banner-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
+} */
+.banner-inner{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 230px;
+    padding-top:116px;
+    padding-bottom: 50px;
+}
+.banner-inner h1{
+    width: 525px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+.banner-inner p{
+    width: 494px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.button-holder .btn{
+    height: 64px;
+    padding:0 26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+/* About Section  */
+.about-section{
+    /* padding: 131px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-wrapper{
+    width: 1072px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+    /* padding: 0 200px; */
+}
+/* .about-img-inner{
+margin-right: ;
+} */
+.about-img-inner img{
+    width: 569px;
+height: 723.3px;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.about-content h2{
+    width: 288px;
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+margin-bottom: 24px;
+}
+.about-content p{
+    width: 416px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+margin-bottom: 16px;
+}
+.about-content ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+/* planing-section  */
+.planing-wrapper{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.planing-wrapper h2{
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+color: #151414;
+margin-bottom: 50px;
+text-align: center;
+}
+
+.planing-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+}
+.planing-content{
+    text-align: center;
+}
+.planing-content img{
+    margin-bottom: 24px;
+}
+
+.planing-content h3{
+    font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #151414;
+margin-bottom: 16px;
+}
+
+.planing-content p{
+    font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+}
+/* planing-banner  */
+
+.planing-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* width: 100%; */
+}
+
+.planing-banner-wrapper{
+
+
+    width: 1140px;
+    background:  linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* height: 300px;  */
+    border-radius: 8px;
+    padding:59px 64px;
+}
+
+.planing-banner-wrapper h2{
+    width: 459px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+/* Footer  */
+
+.footer{
+    background: #151414;
+    padding: 130px 230px;
+}
+footer h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+footer .footer-content p{
+    width: 485px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+margin-bottom: 24px;
+
+}
+
+.footer-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
